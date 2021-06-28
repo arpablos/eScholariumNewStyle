@@ -85,11 +85,11 @@ body {
 		margin-bottom: 10px;
 	}
 
-	.is_app.content_type_clase_escholariump {
+	.is_app.content_type_clase_CustomNewStyle {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_escholariump #actividad {
+	.content_type_clase_CustomNewStyle #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
@@ -105,8 +105,8 @@ body {
 		position: relative;
 	}
 
-	.content_type_clase_escholariump #actividad .content .header .title img,
-	.content_type_clase_escholariump #actividad .content .header .chapter {
+	.content_type_clase_CustomNewStyle #actividad .content .header .title img,
+	.content_type_clase_CustomNewStyle #actividad .content .header .chapter {
 		display: none;
 	}
 
@@ -116,26 +116,26 @@ body {
 		visibility: hidden;
 	}
 
-	.content_type_clase_escholariump #actividad .content .header {
+	.content_type_clase_CustomNewStyle #actividad .content .header {
 		border: none;
 	}
 
-	.content_type_clase_escholariump #actividad .content .header .title {
+	.content_type_clase_CustomNewStyle #actividad .content .header .title {
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
-	.content_type_clase_escholariump #actividad .content .header .title h3 {
+	.content_type_clase_CustomNewStyle #actividad .content .header .title h3 {
 		    display: none;
 	}
-	.content_type_clase_escholariump #actividad .content .header .title h3 span {
+	.content_type_clase_CustomNewStyle #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
 		font-weight: 400;
 	}
-	.content_type_clase_escholariump #actividad .texto_curso,
-	.content_type_clase_escholariump #actividad .slide_content_type_1 .pregunta .texto_curso {
+	.content_type_clase_CustomNewStyle #actividad .texto_curso,
+	.content_type_clase_CustomNewStyle #actividad .slide_content_type_1 .pregunta .texto_curso {
 		font-size: 1.6rem;
 	}
 
@@ -159,7 +159,7 @@ body {
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_escholariump .slide_main input {
+	.content_type_clase_CustomNewStyle .slide_main input {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -171,7 +171,7 @@ body {
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_escholariump .slide_main input:focus {
+	.content_type_clase_CustomNewStyle .slide_main input:focus {
 		border-top-color: #85c939;
 		border-right-color: #85c939;
 		border-bottom-color: #85c939;
@@ -181,25 +181,25 @@ body {
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_escholariump .slide_main input[disabled],
-	.content_type_clase_escholariump .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_escholariump .slide_main input {
+	.content_type_clase_CustomNewStyle .slide_main input[disabled],
+	.content_type_clase_CustomNewStyle .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_CustomNewStyle .slide_main input {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_escholariump .slide_main input.respuesta_ok {
+	.content_type_clase_CustomNewStyle .slide_main input.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_escholariump .slide_main input.respuesta_ko {
+	.content_type_clase_CustomNewStyle .slide_main input.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_escholariump .slide_main input.solucion {
+	.content_type_clase_CustomNewStyle .slide_main input.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -340,7 +340,7 @@ body {
 /**/
 
 /* Navbar (Breadcums) */
-	.content_type_clase_escholariump .publisher-navbar {
+	.content_type_clase_CustomNewStyle .publisher-navbar {
 		position: fixed;
 		top: 44px;
 		background: #e2e5f2;
@@ -350,7 +350,7 @@ body {
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
 	}
 
-	.is_app.content_type_clase_escholariump .publisher-navbar {
+	.is_app.content_type_clase_CustomNewStyle .publisher-navbar {
 		position: sticky;
 		top: 0px;
 	}
@@ -374,7 +374,7 @@ body {
     	background: linear-gradient(to left, rgba(0, 160, 228, 0.21), transparent);
     }
 
-	.content_type_clase_escholariump .publisher-navbar .navbar-content {
+	.content_type_clase_CustomNewStyle .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
@@ -382,7 +382,7 @@ body {
 	}
 
 
-.content_type_clase_escholariump .logo-publisher {
+.content_type_clase_CustomNewStyle .logo-publisher {
     content: " ";
     background-image: url(images/03logoCREA.png)!important;
     height: 52px;
@@ -396,7 +396,7 @@ body {
     display: block;
 }
 
-	.content_type_clase_escholariump .slider-indicators {
+	.content_type_clase_CustomNewStyle .slider-indicators {
 		padding: 0;
 		display: inline-block;
 		text-align: center;
@@ -407,8 +407,8 @@ body {
 	}
 
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown button,
-	.content_type_clase_escholariump .publisher-navbar li {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown button,
+	.content_type_clase_CustomNewStyle .publisher-navbar li {
 		border-radius: 0px;
 		background-color: transparent;
 		color: #000;
@@ -421,16 +421,16 @@ body {
 		cursor: pointer;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar li{
+	.content_type_clase_CustomNewStyle .publisher-navbar li{
         border-right: 2px solid #51873a;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown button {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown button {
 		background: none;
 		color: #51873a;
 	}
 
-	.content_type_clase_escholariump .slider-indicators:after {
+	.content_type_clase_CustomNewStyle .slider-indicators:after {
 		content: '';
 		display: block;
 		clear: both;
@@ -439,7 +439,7 @@ body {
 		height: 0;
 	}
 
-	.content_type_clase_escholariump .slider-indicators li {
+	.content_type_clase_CustomNewStyle .slider-indicators li {
 		width: 35px;
 		height: 35px;
 		margin: 0 8px 0 0;
@@ -448,23 +448,23 @@ body {
 		position: relative;
 	}
 
-	.content_type_clase_escholariump .slider-indicators li.active,
-	.content_type_clase_escholariump .publisher-navbar li:hover {
+	.content_type_clase_CustomNewStyle .slider-indicators li.active,
+	.content_type_clase_CustomNewStyle .publisher-navbar li:hover {
 		opacity: 1;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar #top-navigator {
+	.content_type_clase_CustomNewStyle .publisher-navbar #top-navigator {
 		float: none;
 		margin-top: 20px;
 		display: block;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown {
 		float: left;
 		display: block;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown button {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
@@ -475,25 +475,25 @@ body {
 		overflow-y: auto;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown button {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown button {
 		border: none;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown button:focus {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown li {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 		background: none;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown li a {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown li a {
 		color: #51873a;
 	}
 
-	.content_type_clase_escholariump .publisher-navbar .dropdown .caret {
+	.content_type_clase_CustomNewStyle .publisher-navbar .dropdown .caret {
 		border-color: #51873a transparent transparent transparent;
 		margin-left: 6px;
 
@@ -509,7 +509,7 @@ body {
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/escholariump_audio.png) 0 0 no-repeat;
+	background: url(images/escholarium_audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -519,7 +519,7 @@ body {
 }
 
 #actividad .player.video {
-	background: url(images/escholariump_video.png) 0 0 no-repeat;
+	background: url(images/escholarium.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -1093,7 +1093,7 @@ ol.bck-ol.bck-ol-1 li {
   		border-right: 1px solid #eee;
     }
 
-    .content_type_clase_escholariump .logo-publisher {
+    .content_type_clase_CustomNewStyle .logo-publisher {
 		margin-right: 0px;
 	}
 }
@@ -1104,7 +1104,7 @@ ol.bck-ol.bck-ol-1 li {
 		padding-left: 30px;
 	}
 
-	.content_type_clase_escholariump #actividad .content .header .title h3 {
+	.content_type_clase_CustomNewStyle #actividad .content .header .title h3 {
 		margin-left: -30px;
 		padding-left: 20px;
 		padding-right: 50px;
@@ -1120,10 +1120,10 @@ ol.bck-ol.bck-ol-1 li {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.content_type_clase_escholariump .publish {
+	.content_type_clase_CustomNewStyle .publish {
 		padding-left: 25px;
 	}
-	.content_type_clase_escholariump .logo-publisher {
+	.content_type_clase_CustomNewStyle .logo-publisher {
 		margin-left: -20px;
 	}
 
@@ -1145,11 +1145,11 @@ ol.bck-ol.bck-ol-1 li {
     .bck-img.left, img[style~="float:left"] {
         max-width: 50%
     }
-	.content_type_clase_escholariump .publisher-navbar {
+	.content_type_clase_CustomNewStyle .publisher-navbar {
 		top: 88px;
 	}
 
-	.content_type_clase_escholariump .logo-publisher {
+	.content_type_clase_CustomNewStyle .logo-publisher {
 		margin-right: -20px;
 	}
 
@@ -1187,11 +1187,11 @@ ol.bck-ol.bck-ol-1 li {
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-	.content_type_clase_escholariump .publisher-navbar .navbar-content {
+	.content_type_clase_CustomNewStyle .publisher-navbar .navbar-content {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.content_type_clase_escholariump .publisher-navbar .logo-publisher:before {
+	.content_type_clase_CustomNewStyle .publisher-navbar .logo-publisher:before {
 		content: none;
 		display: none;
 
@@ -1204,7 +1204,7 @@ ol.bck-ol.bck-ol-1 li {
 		font-size: 2.4rem;
 		width: 60px;
 	}
-	.content_type_clase_escholariump #actividad .content .header .title h3 {
+	.content_type_clase_CustomNewStyle #actividad .content .header .title h3 {
 		padding-right: 20px;
 		margin-bottom: 20px;
 	}
@@ -1225,6 +1225,6 @@ div.calculo table.marco * {
     border-top: 2px dashed #f9bfad !important;
 }
 
-.content_type_clase_escholariump .slide_main input {
+.content_type_clase_CustomNewStyle .slide_main input {
     border: 1px solid #ccc !important;
 }
