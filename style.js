@@ -9,10 +9,10 @@
 	ModernStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_escholariump',
+		bodyClassName: 'content_type_clase_CustomNewStyle',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
-			name: 'escholariump',
+			name: 'CustomNewStyle',
 			styles: [
 
 				{ name: 'Título de la Unidad', element: 'h4', attributes: { 'class': 'bck-title2'} },
@@ -137,7 +137,7 @@
 
 	ModernStyle.prototype = _.extend({}, new blink.theme.styles.basic(), ModernStyle.prototype);
 
-	blink.theme.styles.escholariump = ModernStyle;
+	blink.theme.styles.CustomNewStyle = ModernStyle;
 
 })( blink );
 
@@ -158,8 +158,8 @@ $(document).ready(function () {
 		});
 
 	// BK-8433 cambiamos el logo de las slides por el del dominio
-	var src_logo = $('.content_type_clase_escholariump').find('.logo_slide').attr('logo_dominio');
+	var src_logo = $('.content_type_clase_CustomNewStyle').find('.logo_slide').attr('logo_dominio');
 	if (typeof(src_logo) != 'undefined' && src_logo && src_logo != '' && src_logo.indexOf('gif1x1.gif') == -1) {
-		$('.content_type_clase_escholariump').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
+		$('.content_type_clase_CustomNewStyle').find('.logo-publisher').css('background-image', "url('"+src_logo+"')");
 	}
 });
